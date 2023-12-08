@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.gridlayout{
+    width: 95%;
+    margin: auto;
+   
+}
+.bgimg{
+    position: relative;
+} 
+.bannerimagedivision{
+    width: 100%;
+}  
+.bannerimagedivision img{
+    width: 100%;
+    z-index: -5;
+    position: absolute;
+    top: 0;
+} 
+header{
+    height: 900px;
+    overflow: hidden;
+    }
+
+ 
+
+.headerlink ul{
+display: flex;
+justify-content: space-between;
+
+
+}  
+  
+.headerlink ul li{
+    list-style-type: none;
+   
+}
+.headerlink ul li a{
+    text-decoration: none;
+   
+   margin-right: 50px;
+    font-size: 20px;
+    font-family: 'poppins', medium;
+  
+    
+}
+.white{
+    color: #FFFFFF;
+}
+.active{
+    color: #F89809;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 10px;
+   
+
+}
+.headercontent{
+    padding-top: 100px;
+}
+.headercontent h1{
+    text-align: left;
+    font-size: 50px;
+    margin: auto;
+    color: #FFFFFF;
+}
+.headercontent p{
+    text-align: left;
+    font-size: 25px;
+     margin: auto;
+    padding-top: 30px;
+    color: #FFFFFF;
+}
+.headercontent button{
+    text-align: left;
+    font-size: 20px;
+    padding: 15px 30px;
+    color: #FFFFFF;
+    width: 200px;
+    background: #F89809;
+    
+}
+
+
+
+.btncontent{
+    display: flex;
+    justify-content: left;
+    padding-top: 30px;
+}
+.flex1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+
+
+
+
+   
+
+
+
+
+.maincard{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    
+
+}
+.subcardone{
+    width: 28%;
+    border: 1 px  solid #FFFFFF;
+    margin-bottom: 20px;
+}
+.subcardtwo{
+    width: 28%;
+    border: 1 px  solid #FFFFFF;
+    margin-bottom: 30px;
+}
+.subcardthree{
+    width: 28%;
+    border: 1 px  solid #FFFFFF;
+    margin-bottom: 20px;
+}
+.subcardfour{
+    width: 28%;
+    border: 1 px  solid #FFFFFF;
+    margin-bottom: 20px;
+}
+.subcardfive{
+    width: 28%;
+    border: 1 px  solid #FFFFFF;
+    margin-bottom: 20px;
+}
+.subcardsix{
+    width: 28%;
+    border: 1 px  solid #EBE0E0;
+    margin-bottom: 20px;
+}
+.subcardseven{
+    width: 28%;
+    border: 1 px  solid #FFFFFF;
+    margin-bottom: 20px;
+}
+.subcardeight{
+    width: 28%;
+    border: 1 px  solid #FFFFFF;
+    margin-bottom: 20px;
+}
+.subcardnine{
+    width: 28%;
+    border: 1 px  solid #FFFFFF;
+    margin-bottom: 20px;
+}
+.cardcontent{
+padding: 20px;
+}
+.cardcontent p{
+    font-family:'poppins' , medium;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    width: 60%;
+    font-size: 25px;
+    text-align: center;
+    color: #000000;
+    margin-left: 60px;
+    
+}
+.cardcontent h4{
+    font-family: 'poppins', medium;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 60%;
+    margin-left: 60px;
+
+}
+.cardimage img{
+    width: 100%;
+}
+
+.main h2{
+    font-family: 'poppins',medium;
+    font-weight: 100;
+    color: #000000;
+    margin-top: 20px;
+    text-align: left;
+   
+    padding-top: 50px;
+    margin-left: 20px;
+}
+.menuall ul{
+    display: flex;
+    justify-content:right;
+    
+}
+.main ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'poppins',medium;
+    margin-bottom: 20px;
+    font-size:20px;
+}
+
+.button2 button{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'poppins',medium;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    width: 200px;
+    background: #F89809;
+    
+    font-family: 'poppins',medium;
+    border: none;
+}
+
+.btncontent2{
+    display: flex;
+    justify-content:center;
+    padding-top: 10px;
+}
+.button3 button{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'poppins',medium;
+    padding: 10px 10px;
+    color: #FFFFFF;
+    width: 200px;
+    background: #F89809;
+    
+    font-family: 'poppins',medium;
+    border: none;
+}  
+.btncontent3{
+    display: flex;
+    justify-content:center;
+    padding-top: 10px;
+}
+
+
+
+.reviews h5{
+    font-family:'poppins',medium ;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 24px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.reviewimg{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
+.footer1 h3,.footer2 h3, .footer3 h3,.footer4 h3{
+    font-size: 24px;
+    text-align: left;
+    margin-right: 0px;
+}
+    
+
+
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: #000000;
+    color: #EBE0E0;
+
+}
+.footer1 p{
+   font-family: 'poppins', medium;
+   text-align: left;
+   font-size:18px;
+   margin-top: 20px;
+   color: #EBE0E0;
+}
+    
+    
+.footer1 {
+    width: 300px;
+    
+}
+.footer2{
+    width: 300px;
+}
+.footer3{
+    width: 300px;
+}
+.footer4{
+    width: 300px;
+
+}
+.footer2 ul, .footer3 ul{
+    margin-top: 20px;
+}
+.footer2 ul li,.footer3 ul li{
+
+    font-size: 18px;
+    list-style-type: none;
+    font-family: 'poppins', medium;
+    text-align: left;
+}
+.footer4 p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'poppins', medium;
+    text-align: left;
+    color: #EBE0E0;
+}
+.emailbox input{
+    padding: 10px;
+    font-family: 'poppins', medium;
+    width: 85%;
+    margin-top: 10px;
+    
+}
+
+.TABLE{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.namebox input{
+    padding: 10px;
+    font-family: 'poppins', medium;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.phonenumberboX input{
+    padding:  10px;
+    font-family: 'poppins', medium;
+    width: 85%;
+}
+.arrow{
+    position: relative;
+    left: -35px; 
+    top: 5px;
+}
+.calender{
+    position: relative;
+    left: -35px; 
+    top: 5px;
+}
+ h3{
+    text-align: center;
+    margin-top: 50px;
+   margin-right: 70px;
+    font-size: 24px;
+    font-family: 'poppins, medium';
+   
+    
+    
+}
+
+.email symbol{
+    margin-left: -70px;
+    margin-top: 20px;
+    position: relative;
+    top: 5px;
+     left:-35px ;
+}
+.footer{
+    padding: 50px;
+}
+.copyrightmain h4{
+    font-family:'poppins, medium' ;
+
+
+}
+.copyrightmain{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 15px 0px;
+
+}
+
+.footer2 ul li{
+    list-style-type: none;
+}
+.sendimg{
+    position: relative;
+    left: -35px; 
+    top: 5px; 
+}
+.footerbg{
+    background-color: #000000; 
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+/* mobile responsive */
+
+@media screen and (max-width:500px) {
+    .mainheader ,main,footer{
+        overflow: hidden; 
+
+    }
+     .header{
+        height: auto;
+     }
+     .emailbox input{
+        margin-top: 30px;
+    }
+        
+    
+    .mainfooter ,.reviewimg {
+        display: block;
+    
+        }
+        .flex1{
+            margin:  0px;
+          overflow: hidden;
+        }
+         .offerimg{
+            height: auto;
+         }
+        header{
+            height: 300px;
+            overflow: hidden;
+        }
+        
+
+        .headerlink{
+            margin-top: 10px;
+            margin-bottom: 20px;
+    
+        }
+        .headercontent{
+            font-size: 13px;
+            padding: 0px 0px;
+           
+        }
+        .headercontent button{
+            padding: 10px 10px;
+            width: 30%;
+            font-size: 15px;
+            border: none;
+        }
+        .headercontent h1{
+            font-size: 15px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            
+           
+        }
+       .headercontent p{
+        
+         font-size: 10px;
+         padding-top: 0px;
+       }
+
+
+        .bgimg{
+            
+            height: 500px;
+            background-position: center;
+            width: 100%;
+        }
+            
+        
+        .content button{
+            font-size: 10px;
+            padding: 5px ;
+            margin-left: 150px;
+            margin-top: 20px;
+            
+        }
+        .subcardone,.subcardtwo,.subcardthree,.subcardfour,.subcardfive,.subcardsix,.subcardseven,.subcardeight,.subcardnine{
+            width: 30%;
+        }
+        
+        .menuall li{
+            font-size: 13px;
+            margin-right: 10px;
+        }
+        .headerlogo img{
+            
+            width: 30%;
+          
+        }
+        .footer{
+            width: 100%;
+        }
+        .emailbox{
+            margin-bottom: 15px;
+        }
+        .copyrightmain h4{
+            font-size: 13px;
+        }
+        .cardcontent h4{
+            font-size: 10px;
+            margin-bottom: 0px;
+             width: auto; 
+             margin-left: 0px;
+        }
+        .cardcontent p{
+            font-size: 10px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 20px;
+        }
+        .cardcontent{
+            padding: 0px 10px;
+        }
+        .reviews h5{
+            font-size: 18px;
+            margin-right: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        .footerbg{
+            margin-top: 0px;
+        }
+        .reviewimg{
+            margin-left: 0px;
+           
+        
+        }
+        .namebox input{
+            width: 70%;
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+        .button2 button{
+            width: 150px;
+        }
+        .main ul li{
+            font-size: 15px;
+        }
+        .bannerimagedivision{
+            width: 100%;
+        }
+        .headerlink ul li a{
+            font-size: 10px;
+            margin-right: 0px;
+        }
+        .button3 button{
+            width: 40%;
+        }
+        
+    
+}
+
+
+
+
+
+/* ipad responsive*/
+@media (min-width:700px) and (max-width:850px) {
+    .bgimg{
+    width: 100%;
+   
+    display: block;
+    }
+    header{
+        height: 550px;
+        width: 850px;
+    }
+   
+    .subcardone{
+        width: 32%;
+    }
+    .subcardtwo{
+        width: 32%;
+    }
+    .subcardthree{
+        width: 32%;
+    }
+    .subcardfour{
+        width: 32%;
+    }
+    .subcardfive{
+        width: 32%;
+
+    }
+    .subcardsix{
+        width: 32%;
+    }
+    .subcardseven{
+        width: 32%;
+    }
+    .subcardeight{
+        width: 32%;
+    }
+    .subcardnine{
+        width: 32%;
+    }
+
+    .cardcontent p{
+        font-size:18px ;
+        margin-left: 30px;
+    }
+    .emailbox input{
+        width: 80%;
+       
+        margin-top: 20px;
+    }
+    .mainfooter{
+        display: block;
+    }
+    .arrow{
+        position: relative;
+        left: -35px; 
+        top: 5px;
+    }
+    .calender{
+        position: relative;
+        left: -35px; 
+        top: 5px;
+    }
+    .sendimg{
+        position: relative;
+        left: -35px; 
+        top: 5px; 
+    }
+    .cardcontent h4{
+      width: auto;
+      margin-left: 0px;
+      font-size: 20px;
+      
+      
+
+    }
+    .footer1 h3,.footer2 h3, .footer3 h3,.footer4 h3{
+        font-size: 24px;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .cardcontent h3{
+        
+        padding-left: 0px;
+    }
+    .offerimg{
+       margin-left: 0px;
+    }
+    .maincard{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+  
+
+      .footerbg{
+        width: 850px;
+    }
+    .namebox input{
+        width: 80%;
+    }
+
+
+      
+    
+ 
+   
+        
+    
+   
+    
+  
+    
+
+
+
+
+    
+
+
+}
+
+
